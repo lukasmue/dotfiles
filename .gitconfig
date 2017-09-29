@@ -148,7 +148,7 @@
 
 [gpg]
 	program = gpg1
-	user.signingkey = 953F0C378BA66D03
+	signingkey = 953F0C378BA66D03
 
 [help]
 
