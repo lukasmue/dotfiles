@@ -1,8 +1,11 @@
 # Compiled Python files
 *.pyc
 
-# Folder view configuration files
-.DS_Store
+# OS generated files #######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
 Desktop.ini
 
 # Thumbnail cache files
