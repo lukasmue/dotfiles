@@ -146,6 +146,10 @@
 	# Use `hexdump` to diff binary files
 	textconv = hexdump -v -C
 
+[gpg]
+	program = gpg1
+	user.signingkey = 953F0C378BA66D03
+
 [help]
 
 	# Automatically correct and execute mistyped commands
