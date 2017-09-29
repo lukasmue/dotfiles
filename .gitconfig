@@ -133,7 +133,6 @@
 	untracked = cyan
 
 [commit]
-	gpg.program = gpg1
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = true
 
