@@ -32,7 +32,7 @@ sudo nvram SystemAudioVolume=" "
 #defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
+#defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
@@ -530,10 +530,7 @@ defaults write com.apple.mail DisableSendAnimations -bool true
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
-#defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\U21a9"
-+defaults write com.apple.mail NSUserKeyEquivalents '{
-+  "Send"="@\U21a9";
-+}'
+defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\U21a9"
 
 
 # Display emails in threaded mode, sorted by date (oldest at the top)
